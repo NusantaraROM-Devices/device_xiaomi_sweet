@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
     SettingsOverlaySweet \
+    SettingsLibOverlaySweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
