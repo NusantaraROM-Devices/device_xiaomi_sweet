@@ -1,2 +1,5 @@
 allow init sysfs_dm:file setattr;
 allow init tmpfs:blk_file r_file_perms;
+
+# Adaptive charging
+allow init vendor_sysfs_battery_supply:file { setattr };

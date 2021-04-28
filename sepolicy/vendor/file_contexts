@@ -30,3 +30,6 @@
 
 # Persist subsystem
 /mnt/vendor/persist/subsys(/.*)?                                  u:object_r:persist_subsys_file:s0
+
+# Adaptive Charging
+/sys/class/power_supply/battery/input_suspend                                                                               u:object_r:vendor_sysfs_battery_supply:s0
