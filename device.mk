@@ -183,10 +183,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# FM
+# Remove unwanted packages
 PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
+    remove_packages
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
