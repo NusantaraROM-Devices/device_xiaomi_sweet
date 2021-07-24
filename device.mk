@@ -124,7 +124,9 @@ PRODUCT_PACKAGES += \
     SettingsLibOverlaySweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
-    TelephonyOverlaySweet
+    TelephonyOverlaySweet \
+    TetheringConfigOverlaySweet \
+    WifiOverlaySweet
 
 # Permissions
 PRODUCT_COPY_FILES += \
