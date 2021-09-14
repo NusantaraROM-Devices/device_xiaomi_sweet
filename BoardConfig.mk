@@ -167,3 +167,6 @@ LOC_HIDL_VERSION := 4.0
 
 # Media
 TARGET_DISABLED_UBWC := true
+
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/framework_manifest.xml

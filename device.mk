@@ -375,3 +375,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zram.periodic_wb_delay_hours=24
 
 include vendor/xiaomi/sweet/sweet-vendor.mk
+
+# Livedisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service-sdm
