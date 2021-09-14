@@ -1,0 +1,26 @@
+[
+  {
+    "remote":"github",
+    "repository":"NusantaraROM-Devices/vendor_xiaomi_sweet",
+    "target_path":"vendor/xiaomi/sweet",
+    "branch":"11"
+  },
+  {
+   "remote":"github",
+    "repository":"NusantaraROM-Devices/kernel_xiaomi_sweet",
+    "target_path":"kernel/xiaomi/sweet",
+    "branch":"11"
+  },
+  {
+    "remote":"github",
+    "repository":"BayerischeMotorenWerke/android_hardware_qcom_display",
+    "target_path":"hardware/qcom-caf/sm8150/display",
+    "branch":"11-sm8150"
+  },
+  {
+    "remote":"gitlab",
+    "repository":"BayerischeMotorenWerke/android_vendor_miuicamera",
+    "target_path":"vendor/miuicamera",
+    "branch":"11"
+  }
+]
