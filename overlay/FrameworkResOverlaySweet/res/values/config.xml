@@ -473,4 +473,7 @@
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
