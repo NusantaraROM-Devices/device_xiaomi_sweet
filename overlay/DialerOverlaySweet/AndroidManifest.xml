@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arrow.dialeroverlay.sweet">
+    package="com.android.dialeroverlay.sweet">
 
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.dialer"
