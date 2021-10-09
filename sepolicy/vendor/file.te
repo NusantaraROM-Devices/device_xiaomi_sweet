@@ -9,3 +9,6 @@ type pps_socket, file_type;
 
 # sysfs
 type sysfs_kgsl, sysfs_type, fs_type;
+
+# Kcal
+type kcal_dev, sysfs_type, fs_type;

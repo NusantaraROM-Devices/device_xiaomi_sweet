@@ -33,3 +33,7 @@
 
 # Adaptive Charging
 /sys/class/power_supply/battery/input_suspend                                                                               u:object_r:vendor_sysfs_battery_supply:s0
+
+# Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?                      u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                    u:object_r:kcal_dev:s0
