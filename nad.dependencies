@@ -10,5 +10,11 @@
     "repository":"NusantaraROM-Devices/kernel_xiaomi_sweet",
     "target_path":"kernel/xiaomi/sweet",
     "branch":"miui"
+  },
+  {
+   "remote":"gitlab",
+    "repository":"BayerischeMotorenWerke/vendor_anxcamera",
+    "target_path":"vendor/ANXCamera",
+    "branch":"11"
   }
 ]
