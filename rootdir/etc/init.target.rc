@@ -151,6 +151,9 @@ on boot
 #disable qcom qc3p5
     setprop persist.vendor.cp.support_qc3p5 0
     write /sys/block/sda/queue/wbt_lat_usec 75000
+# Allow system to read measured_fps
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+    chmod 0444 /sys/class/drm/sde-crtc-0/measured_fps
 
 # Restrict permissions to socket file 
 # to hide Magisk & co.

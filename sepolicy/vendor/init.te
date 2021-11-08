@@ -4,3 +4,7 @@ allow init vendor_configs_file:file mounton;
 
 # Adaptive charging
 allow init vendor_sysfs_battery_supply:file { setattr };
+
+# Allow init to read and write to vendor_sysfs_graphics
+allow init vendor_sysfs_graphics:dir search;
+allow init vendor_sysfs_graphics:file rw_file_perms;

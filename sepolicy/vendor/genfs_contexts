@@ -1,2 +1,5 @@
 # Charger
 genfscon sysfs /sys/class/power_supply/battery/input_suspend    u:object_r:vendor_sysfs_battery_supply:s0
+
+# FPS Info
+genfscon sysfs /class/drm/sde-crtc-0/measured_fps    u:object_r:vendor_sysfs_graphics:s0
