@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    CameraGo
 
 # Overlays
 PRODUCT_PACKAGES += \
