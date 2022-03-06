@@ -15,6 +15,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 USE_GAPPS := true
 USE_PIXEL_CHARGING := true
+# Device can use Quick Tap feature
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := nad_sweet
 PRODUCT_DEVICE := sweet
